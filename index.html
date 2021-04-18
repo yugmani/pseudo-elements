@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Pseudo Elements</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Pseudo Elements & Tooltip</h1>
+      </div>
+      <div class="input-text">
+        <label class="required">Name</label>
+        <input type="text" required />
+
+        <button data-tooltip="tooltip">Submit Form</button>
+      </div>
+      <div class="note">
+        <p>
+          <mark>Note 1:</mark> Please mouseover on submit button to see Tooltip
+        </p>
+        <p>
+          <mark>Note 2:</mark> * is to indicate that it is required to input and
+          it is created using pseudo element <code>::after</code>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
